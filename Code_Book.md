@@ -2,16 +2,13 @@ Code Book
 ==========
 
 ## Getting and Cleaning Data Project
-
-
-## Description
-This contains information about the `input data` and variables used, and the transformations applied as the course project required.
+This page contains information about the `input data` and `variables` used, and the transformations applied as required by the course project.
 
 
 ## Sources of Data
-Description of the data used can be accessed at http://bit.ly/1mEvWTG.
+* The dataset used is **described** here: http://bit.ly/1mEvWTG.
 
-The data used can be downloaded here: http://bit.ly/1p1sdWC.
+* The data used can be **downloaded** here: http://bit.ly/1p1sdWC.
 
 
 ## DataSet Information
@@ -37,27 +34,27 @@ For `each record` in the dataset it is provided:
 
 ## Preliminary activities
 
-After setting the source directory (**UCI HAR Dataset**) for the files, the following data tables were opened and ***read***:
+After setting the source directory (**UCI HAR Dataset** **folder**) of the files, the following data tables were opened and **read**:
 
-* **from test folder**
+**from test folder**
 * `subject_test` : subject IDs for `test`
 * `X_test` : values of variables in `test`
 * `y_test` : activity ID in `test`
 
-* **from train folder**
+**from train folder**
 * `X_train` : values of variables in `train`
 * `subject_train`  : subject IDs for `train`
 * `y_train` : activity ID in `train`
 
-* **from the UCI HAR Dataset folder**
+**from the UCI HAR Dataset folder**
 * `activity_labels` : Description of activity IDs in `y_test` and `y_train`
 * `features` : description(label) of each variables in `X_test` and `X_train`
 
-The training and the test sets were **merged** to create ***one data set***.
-
+The training and the test sets were **merged** to create ***one data set***, as follows:
 * `s` : bind of `subject_train` and `subject_test`
 * `y` : bind of `y_train` and `y_test`
 * `x` : bind of `X_train` and `X_test`
+
 
 ## Project Summary
 
