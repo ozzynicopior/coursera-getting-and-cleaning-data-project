@@ -3,22 +3,26 @@ Code Book
 
 ## Getting and Cleaning Data Project
 
+
 ## Description
 This contains information about the `input data` and variables used, and the transformations applied as the course project required.
+
 
 ## Sources of Data
 Description of the data used can be accessed at http://bit.ly/1mEvWTG.
 
 The data used can be downloaded here: http://bit.ly/1p1sdWC.
 
+
 ## DataSet Information
 
-* The data came from experiments that involved 30 volunteers (age bracket: 19-48 years). 
-* Each person performed six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
-* All six activities were done while wearing a smartphone (Samsung Galaxy S II) on the waist. 
+* The data came from experiments that involved *30 volunteers* (age bracket: ***19-48 years***). 
+* Each person performed six activities: `1)` WALKING, `2)` WALKING_UPSTAIRS, `3)` WALKING_DOWNSTAIRS, `4)` SITTING, `5)` STANDING, `6)` LAYING 
+* All six activities were done while wearing a `smartphone` (Samsung Galaxy S II) on the waist. 
 * Using the smartphone's accelerometer and gyroscope, the following were captured: **3-axial linear acceleration** and **3-axial angular velocity** at a constant rate of 50Hz. 
 * The experiments have been video-recorded to label the data manually. 
 * The obtained dataset has been randomly partitioned into two: where 70% of the volunteers was selected for generating the **training data** and 30% the **test data**.
+
 
 ## Attribute Information
 
@@ -29,6 +33,7 @@ For `each record` in the dataset it is provided:
 * A 561-feature vector with time and frequency domain variables.
 * Its activity label.
 * An identifier of the subject who carried out the experiment.
+
 
 ## Preliminary activities
 
@@ -48,7 +53,7 @@ After setting the source directory (**UCI HAR Dataset**) for the files, the foll
 * `activity_labels` : Description of activity IDs in `y_test` and `y_train`
 * `features` : description(label) of each variables in `X_test` and `X_train`
 
-## The training and the test sets were merged to create **one data set**.
+The training and the test sets were **merged** to create ***one data set***.
 
 * `s` : bind of `subject_train` and `subject_test`
 * `y` : bind of `y_train` and `y_test`
