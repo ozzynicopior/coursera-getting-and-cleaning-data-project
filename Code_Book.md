@@ -37,7 +37,7 @@ This page contains information about the `input data` and `variables` used, and 
 
 After setting the source directory (**UCI HAR Dataset** **folder**) of the files, the following data tables were opened and **read**:
 
-  **from test folder**
+   **from test folder**
 * `subject_test` : subject IDs for `test`
 * `X_test` : values of variables in `test`
 * `y_test` : activity ID in `test`
