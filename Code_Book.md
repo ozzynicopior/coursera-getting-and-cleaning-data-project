@@ -14,7 +14,8 @@ This page contains information about the `input data` and `variables` used, and 
 ## DataSet Information
 
 * The data came from experiments that involved *30 volunteers* (age bracket: ***19-48 years***). 
-* Each person performed six activities: `1)` WALKING, `2)` WALKING_UPSTAIRS, `3)` WALKING_DOWNSTAIRS, `4)` SITTING, `5)` STANDING, `6)` LAYING 
+* Each person performed six activities: 
+   `1)` WALKING, `2)` WALKING_UPSTAIRS, `3)` WALKING_DOWNSTAIRS, `4)` SITTING, `5)` STANDING, `6)` LAYING 
 * All six activities were done while wearing a `smartphone` (Samsung Galaxy S II) on the waist. 
 * Using the smartphone's accelerometer and gyroscope, the following were captured: **3-axial linear acceleration** and **3-axial angular velocity** at a constant rate of 50Hz. 
 * The experiments have been video-recorded to label the data manually. 
@@ -23,7 +24,7 @@ This page contains information about the `input data` and `variables` used, and 
 
 ## Attribute Information
 
-For `each record` in the dataset it is provided:
+  For `each record` in the dataset it is provided:
 
 * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 * Triaxial Angular velocity from the gyroscope.
@@ -36,17 +37,17 @@ For `each record` in the dataset it is provided:
 
 After setting the source directory (**UCI HAR Dataset** **folder**) of the files, the following data tables were opened and **read**:
 
-**from test folder**
+  **from test folder**
 * `subject_test` : subject IDs for `test`
 * `X_test` : values of variables in `test`
 * `y_test` : activity ID in `test`
 
-**from train folder**
+  **from train folder**
 * `X_train` : values of variables in `train`
 * `subject_train`  : subject IDs for `train`
 * `y_train` : activity ID in `train`
 
-**from the UCI HAR Dataset folder**
+  **from the UCI HAR Dataset folder**
 * `activity_labels` : Description of activity IDs in `y_test` and `y_train`
 * `features` : description(label) of each variables in `X_test` and `X_train`
 
